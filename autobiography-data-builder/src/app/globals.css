@@ -1,0 +1,19 @@
+@import url("https://fonts.googleapis.com/css2?family=Merriweather:wght@400;700&family=Roboto+Serif:wght@400;700&display=swap");
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --font-display: "Poppins";
+  --font-body: "Inter";
+}
+
+body {
+  @apply bg-slate-950 text-white min-h-screen;
+}
+
+.gradient-bg {
+  background: radial-gradient(circle at top left, rgba(61, 112, 255, 0.45), transparent 40%),
+    radial-gradient(circle at bottom right, rgba(255, 138, 101, 0.35), transparent 35%);
+}
